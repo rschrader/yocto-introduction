@@ -32,6 +32,5 @@
 	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "yoctobuilder",
 	"updateRemoteUserUID": true,
-	//"runArgs": ["--cap-add=NET_ADMIN", "--device", "/dev/net/tun:/dev/net/tun"]
-	"runArgs": ["--privileged", "--cap-add=ALL", "-v", "/dev:/dev", "-v", "/lib/modules:/lib/modules"]
+	//"runArgs": ["--privileged", "--cap-add=ALL", "-v", "/dev:/dev", "-v", "/lib/modules:/lib/modules"]
 }
